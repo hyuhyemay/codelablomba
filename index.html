@@ -13,20 +13,22 @@
 </head>
 <body>
 
+  <!-- LANDING PAGE -->
   <section class="landing-page" id="landingPage">
-    <img src="assets/ocean.jpg" class="bg-video" />
+    <img src="assets/ocean.jpg" alt="Background" class="bg-video" />
     <div class="overlay"></div>
 
     <div class="landing-content">
       <p class="small-text">StudySprint</p>
-      <h1>Atasi Stressmu,<br />Atur Fokusmu</h1>
+      <h1>Atasi Stressmu,<br>Atur Fokusmu</h1>
       <p class="subtitle">
         Mulai sesi belajarmu dengan lebih tenang, terarah, dan terstruktur.
       </p>
-      <button id="enterBtn">Masuk StudySprint</button>
+      <button id="enterBtn" type="button">Masuk StudySprint</button>
     </div>
   </section>
 
+  <!-- PLANNER PAGE -->
   <section class="planner-page hidden" id="plannerPage">
     <div class="planner-container">
       <div class="planner-card">
@@ -53,7 +55,11 @@
             <option value="high">Tinggi</option>
           </select>
 
-          <input type="text" id="distraction" placeholder="Gangguan utama hari ini (misal: HP, ngantuk, sosial media)" />
+          <input
+            type="text"
+            id="distraction"
+            placeholder="Gangguan utama hari ini (misal: HP, ngantuk, sosial media)"
+          />
         </div>
 
         <div class="subjects-section">
@@ -79,7 +85,7 @@
         </div>
 
         <div class="button-group">
-          <button id="generateBtn" class="main-btn" disabled>Buat Rencana</button>
+          <button id="generateBtn" class="main-btn" type="button" disabled>Buat Rencana</button>
           <button id="resetBtn" class="secondary-btn" type="button">Reset</button>
         </div>
 
